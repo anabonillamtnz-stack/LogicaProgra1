@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<body>
+  <div class="container">
+    <center><h2>Convertidor de temperaturas</h2>
+    
+    <label >Selecciona la conversión:</label>
+    <select id="opcion">
+        <option value="1">Celsius a Fahrenheit</option>
+        <option value="2">Fahrenheit a Celsius</option>
+        <option value="3">Celsius a Kelvin</option>
+        <option value="4">Kelvin a Celsius</option>
+        <option value="5">Fahrenheit a Kelvin</option>
+        <option value="6">Kelvin a Fahrenheit</option>
+    </select>
+
+    <label >Cantidad a convertir:</label>
+    <input type="number" id="valor" placeholder="Ej: 25">
+
+    <button onclick="conversion()">Convertir</button>
+
+    <h3 id="resultado">Resultado: - </h3>
+</div></center>
+
+<script src="tempConverter.js"></script>
+</body>
+</html>
