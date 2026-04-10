@@ -49,7 +49,7 @@ Six Conversion Options:Celsius to Fahrenheit
 * Data Validation: Identifies if the input is a number. If not, it displays an error message and prevents the calculation.
 * Clean Logic: Uses modular functions for each mathematical conversion to ensure code reusability and clarity.
 
-### Technologies UsedJavaScript (ES6+): 
+### Technologies UsedJavaScript: 
 * Logic, DOM manipulation, and mathematical functions.
 * HTML5: Structure and user input fields.
 
